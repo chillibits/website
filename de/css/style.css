@@ -9268,7 +9268,7 @@ h1, h2, h3, h4, h5,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); }
 
 .card.card-login {
-  background: #f44336;
+  background: white;
   border: none;
   -webkit-box-shadow: 0px 26px 29px -13px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0px 26px 29px -13px rgba(0, 0, 0, 0.12);
@@ -9278,7 +9278,7 @@ h1, h2, h3, h4, h5,
   background: transparent;
   border: none; }
   .form-login .card-header .card-title {
-    color: #fff; }
+    color: rgb(51, 51, 51); }
   .form-login .card-header .social-line {
     position: relative;
     display: inline-block; }
