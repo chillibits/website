@@ -25,7 +25,8 @@
         "news_2_title": "The Particulate Matter App has more than 6600 downloads!",
         "news_2_text": "Thank you for your trust!",
         "news": "News",
-        "email": "Email:"
+        "email": "Email:",
+        "imprint": "Imprint"
     },
     "de": {
         "menu": "Menü",
@@ -53,6 +54,7 @@
         "news_2_title": "Die Feinstaub-App hat 6600 Downloads!",
         "news_2_text": "Vielen Dank für Ihr Vertrauen!",
         "news": "Neuigkeiten",
-        "email": "E-Mail:"
+        "email": "E-Mail:",
+        "imprint": "Impressum"
     }
 }
