@@ -72,6 +72,11 @@ hr {
   margin-bottom: 25px;
 }
 
+.below-header {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
 .bottom-padding {
   padding-bottom: 30px;
 }
