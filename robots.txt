@@ -1,0 +1,7 @@
+# robots.txt of https://chillibits.com
+
+User-agent: *
+Disallow: /src/
+Disallow: /logs/
+Disallow: /cloud/
+Disallow: /instant/
