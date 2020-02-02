@@ -11,6 +11,8 @@
 
     if($lang == "de") {
         header("Location: ./de/");
+    } else if($lang == "fr") {
+        header("Location: ./fr/");
     } else {
         // Default language
         header("Location: ./en/");
