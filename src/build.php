@@ -15,6 +15,8 @@
         // Replace strings with the translation
         foreach(rglob("../$lang/*.html") as $file) replaceStrings($file, $lang);
         foreach(rglob("../$lang/*.php") as $file) replaceStrings($file, $lang);
+        // Crate different instances of the sitemap
+        replaceSitemapValues($lang);
     }
     exit;
 
@@ -62,6 +64,17 @@
 
         // Save current file
         file_put_contents($file, $html_code);
+    }
+
+    function replaceSitemapValues($lang) {
+        $content = file_get_contents("../$lang/sitemap.xml");
+
+        // Replace language code
+        $content = str_replace("<lang>", $lang, $content);
+        // Set current datetime as last modified
+        $content = str_replace("<mod>", date('Y-m-d\TH:i:s')."+01:00", $content);
+
+        file_put_contents("../$lang/sitemap.xml", $content);
     }
 
     function rglob($pattern, $flags = 0) {

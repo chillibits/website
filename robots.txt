@@ -5,3 +5,6 @@ Disallow: /src/
 Disallow: /logs/
 Disallow: /cloud/
 Disallow: /instant/
+Disallow: /redirect/
+
+Sitemap: https://chillibits.com/sitemap.xml
