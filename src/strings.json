@@ -26,7 +26,10 @@
         "news_2_text": "Thank you for your trust!",
         "news": "News",
         "email": "Email:",
-        "imprint": "Imprint"
+        "imprint": "Imprint",
+        "cookie_message": "This website uses cookies to ensure you get the best experience on our website.",
+        "cookie_button_text": "Got it!",
+        "cookie_learn_more": "Learn more"
     },
     "de": {
         "menu": "Menü",
@@ -55,7 +58,10 @@
         "news_2_text": "Vielen Dank für Ihr Vertrauen!",
         "news": "Neuigkeiten",
         "email": "E-Mail:",
-        "imprint": "Impressum"
+        "imprint": "Impressum",
+        "cookie_message": "Diese Webseite nutzt Cookies um ein das bestmögliche Nutzererlebnis für Sie zu gewährleisten.",
+        "cookie_button_text": "Alles klar!",
+        "cookie_learn_more": "Mehr erfahren"
     },
     "fr": {
         "menu": "Menu",
@@ -84,6 +90,9 @@
         "news_2_text": "Merci pour votre confiance!",
         "news": "Nouvelles",
         "email": "Email:",
-        "imprint": "Empreinte"
+        "imprint": "Empreinte",
+        "cookie_message": "This website uses cookies to ensure you get the best experience on our website.",
+        "cookie_button_text": "Got it!",
+        "cookie_learn_more": "Learn more"
     }
 }
