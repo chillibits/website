@@ -20,7 +20,7 @@
         "username": "Username / Email",
         "password": "Password",
         "send_email": "Send email",
-        "news_1_title": "Color Converter has more than 8500 downloads!",
+        "news_1_title": "Color Converter has more than 9000 downloads!",
         "news_1_text": "Thank you for your trust!",
         "news_2_title": "The Particulate Matter App has more than 7000 downloads!",
         "news_2_text": "Thank you for your trust!",
@@ -52,7 +52,7 @@
         "username": "Benutzername / E-Mail",
         "password": "Password",
         "send_email": "E-Mail Senden",
-        "news_1_title": "Color Converter hat 8500 Downloads!",
+        "news_1_title": "Color Converter hat 9000 Downloads!",
         "news_1_text": "Vielen Dank für Ihr Vertrauen!",
         "news_2_title": "Die Feinstaub-App hat 7000 Downloads!",
         "news_2_text": "Vielen Dank für Ihr Vertrauen!",
@@ -84,15 +84,15 @@
         "username": "Nom d'utilisateur / Email",
         "password": "Mot de passe",
         "send_email": "Envoyez Email",
-        "news_1_title": "Color Converter a plus de 8500 Télécharges!",
+        "news_1_title": "Color Converter a plus de 9000 Télécharges!",
         "news_1_text": "Merci pour votre confiance!",
         "news_2_title": "L'App Matière Particulaire a plus de 7000 Télécharges!",
         "news_2_text": "Merci pour votre confiance!",
         "news": "Nouvelles",
         "email": "Email:",
         "imprint": "Empreinte",
-        "cookie_message": "Ce site Web utilise des cookies pour vous garantir la meilleure expérience sur notre site Web.",
-        "cookie_button_text": "Je l'ai!",
-        "cookie_learn_more": "Apprendre encore plus"
+        "cookie_message": "This website uses cookies to ensure you get the best experience on our website.",
+        "cookie_button_text": "Got it!",
+        "cookie_learn_more": "Learn more"
     }
 }
