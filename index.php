@@ -13,6 +13,8 @@
         header("Location: ./de/");
     } else if($lang == "fr") {
         header("Location: ./fr/");
+    } else if($lang == "es") {
+        header("Location: ./es/");
     } else {
         // Default language
         header("Location: ./en/");
