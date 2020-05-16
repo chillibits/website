@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.chillibits.com$ [NC]
+RewriteRule ^(.*)$ https://www.chillibits.com/$1 [L,R=301]
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/shtml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# START - Disable server signature #
+ServerSignature Off
+# END - Disable server signature #
+
+AddCharset UTF-8 .html
