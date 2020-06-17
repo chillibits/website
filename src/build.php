@@ -59,6 +59,10 @@
         // Replace html lang tag
         $html_code = str_replace('lang="en"', 'lang="'.$lang.'"', $html_code);
 
+        // Replace lang placeholders
+        $html_code = str_replace('[lang]', $lang, $html_code);
+        $html_code = str_replace('[LANG]', strtoupper($lang), $html_code);
+
         // Replace string occurences
         foreach($json as $key => $value) $html_code = str_replace("str_$key", $value, $html_code);
 
