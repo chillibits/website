@@ -16,12 +16,14 @@ jobs:
       with:
         php-version: '7.4'
     - name: Run build
-      run: php src/build.php
+      run: |
+        cd src
+        php build.php
     - name: FTP deploy
       uses: sebastianpopp/ftp-action@releases/v2
       with:
         host: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "/"
+        localDir: ".."
         remoteDir: "chillibits.com"
