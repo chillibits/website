@@ -1,0 +1,24 @@
+# Build and deploy app to ftp server on master push
+
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Language build
+      uses: franzliedke/gh-action-php@master
+      runs: "php7.1 src/build.php"
+    - name: FTP deploy
+      uses: sebastianpopp/ftp-action@releases/v2
+      with:
+        host: ${{ secrets.FTP_SERVER }}
+        user: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        localDir: "/"
+        remoteDir: "chillibits.com"
