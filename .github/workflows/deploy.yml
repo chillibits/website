@@ -11,14 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Setup PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: '7.4'
-    - name: Run build
-      run: |
-        cd src
-        php build.php
     - name: FTP deploy
       uses: sebastianpopp/ftp-action@releases/v2
       with:
@@ -27,3 +19,8 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         localDir: "."
         remoteDir: "chillibits.com"
+    - name: Build request
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://www.chillibits.com/src/build.php'
+        method: 'GET'
