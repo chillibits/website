@@ -17,7 +17,10 @@
         foreach(rglob("../$lang/*.php") as $file) replaceStrings($file, $lang);
         // Crate different instances of the sitemap
         replaceSitemapValues($lang);
+        echo("Build for $lang done.");
     }
+
+    echo("Build successful");
     exit;
 
     // --------------------- Functions ----------------------
@@ -89,4 +92,3 @@
         return $files;
     }
 ?>
-build successful
