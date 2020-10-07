@@ -2,6 +2,15 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www.chillibits.com$ [NC]
 RewriteRule ^(.*)$ https://www.chillibits.com/$1 [L,R=301]
 
+# Redirects for Color Converter
+RedirectMatch ^/color-converter$ /colorconverter/
+RedirectMatch ^/colourconverter$ /colorconverter/
+RedirectMatch ^/colour-converter$ /colorconverter/
+
+# Redirects for PMApp
+RedirectMatch ^/pm-app$ /pmapp/
+RedirectMatch ^/particulate-matter-app$ /pmapp/
+
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
