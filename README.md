@@ -9,4 +9,4 @@ Information: The website is based on a template from colorlib.com.
 ## Legal protection
 We hereby prohibit the redistribution or copying and reuploading of this website. The infringement of this, can be have legal consequences.
 
-© ChilliBits 2020
+© ChilliBits 2020-2021
