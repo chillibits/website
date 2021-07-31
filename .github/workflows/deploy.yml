@@ -1,10 +1,9 @@
-# Build and deploy app to ftp server on master push
-
+# Build and deploy app to ftp server on main push
 name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
